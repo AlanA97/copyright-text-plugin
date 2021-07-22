@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Settings</title>
+        <title lang="de-DE">Einstellungen</title>
+
+        <input-field type="text">
+            <name>copyrightText</name>
+            <label>Copyright text</label>
+            <defaultValue>Copyright © signundsinn GmbH</defaultValue>
+            <label lang="de-DE">Copyright text</label>
+        </input-field>
+        <input-field type="colorpicker">
+            <name>textColor</name>
+            <label>Copyright text color</label>
+            <defaultValue>#eb4034</defaultValue>
+            <label lang="de-DE">Copyright text Farbe</label>
+        </input-field>
+    </card>
+</config>
